@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.flex {
+    display: flex;
+    width: 600px;
+    background-color: darkred;
+    padding: 20px;
+    margin: 20px;
+    height: 300px;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.flex div {
+    background-color: darksalmon;
+    color: white;
+    margin-right: 5px;
+    padding: 20px;
+    width: calc(94% / 3);
+    text-align: center;
+}
+
+
+
+
